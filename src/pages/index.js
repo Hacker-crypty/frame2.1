@@ -1,12 +1,13 @@
-import footer from "./modulos/footer";
-import menu from "./modulos/navbar";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container } from "react-bootstrap";
+import Footer from "./modulos/footer";
+import Menu from "./modulos/navbar";
 
 export default function Index() {
   return <div>
-    <menu />
-    Bom dia
-    
-   <footer />
-  </div>
+    <Menu />
+    <Container>
+      Bem Vindos a disciplina
+    </Container>
+    <Footer />
+  </div>;
 }
